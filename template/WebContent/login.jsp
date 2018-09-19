@@ -52,28 +52,27 @@ table {
 </head>
 <body>
   <div id="header">
-    <div id="pr">
-    </div>
+  	<div id="pr"></div>
   </div>
   <div id="main">
-    <div id="top">
-      <p>Login</p>
-    </div>
-    <div>
-      <h3>商品を購入する際にはログインをお願いします。</h3>
-      <s:form action="LoginAction">
-        <s:textfield name="loginUserId" />
-        <s:password name="loginPassword" />
-        <s:submit value="ログイン" />
-      </s:form>
-      <br />
-      <div>
-        <span>新規ユーザー登録は<a href='<s:url action="UserCreateAction" />'>こちら</a></span>
-      </div>
-     </div>
-   </div>
-   <div id="footer">
-     <div id="pr"></div>
-   </div>
+  	<div id="top">
+  	 <p>Login</p>
+  	</div>
+  	<div>
+  	  <h3>商品を購入する際にはログインをお願いします</h3>
+  	  <s:form action="LoginAction">
+  	  	<s:textfield name="loginUserId" />
+  	  	<s:password name="loginPassword" />
+  	  	<s:submit value="ログイン" />
+  	  </s:form>
+  	  <br />
+  	  <div id="text-link">
+  	  	<p>新規ユーザー登録は<a href='<s:url action="UserCreateAction" />'>こちら</a></p>
+  	  </div>
+  	</div>
+  </div>
+  <div id="footer">
+  	<div id="pr"></div>
+  </div>
 </body>
 </html>
